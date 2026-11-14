@@ -1,0 +1,12 @@
+
+Dossier PDF Report Generator (One-Click Client Share):
+◦
+Suggestion: Generate professional branded PDF dossiers containing parcel map screenshots, GPS boundary table, perimeter dimensions, unit matrix, and property cost summary with custom logo header.
+◦
+Value: Directly shareable with buyers, banks, legal counsel, and government land registries via WhatsApp/Email.
+2.
+AR (Augmented Reality) Field Boundary Visualizer:
+◦
+Suggestion: Use ARCore to overlay calculated plot boundary lines and corner markers on the smartphone camera view while walking the site.
+◦
+Value: Allows clients to "see" invisible property lines in real time during site visits.

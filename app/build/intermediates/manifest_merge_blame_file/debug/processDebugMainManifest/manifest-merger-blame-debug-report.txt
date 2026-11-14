@@ -1,0 +1,202 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.geomeasure.landtracker"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- High-Accuracy GNSS and Background Tracking Permissions -->
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:6:5-81
+13-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:7:5-67
+14-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:7:22-64
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:8:5-77
+15-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:8:22-74
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+16-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:9:5-86
+16-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:9:22-83
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:10:5-77
+17-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:10:22-74
+18
+19    <uses-feature
+19-->[org.maplibre.gl:android-sdk:11.5.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b9a126a6093d8b3559ef95cc7d51f9db\workspace\transformed\jetified-android-sdk-11.5.0\AndroidManifest.xml:7:5-9:35
+20        android:glEsVersion="0x00030000"
+20-->[org.maplibre.gl:android-sdk:11.5.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b9a126a6093d8b3559ef95cc7d51f9db\workspace\transformed\jetified-android-sdk-11.5.0\AndroidManifest.xml:8:9-41
+21        android:required="true" />
+21-->[org.maplibre.gl:android-sdk:11.5.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b9a126a6093d8b3559ef95cc7d51f9db\workspace\transformed\jetified-android-sdk-11.5.0\AndroidManifest.xml:9:9-32
+22    <uses-feature
+22-->[org.maplibre.gl:android-sdk:11.5.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b9a126a6093d8b3559ef95cc7d51f9db\workspace\transformed\jetified-android-sdk-11.5.0\AndroidManifest.xml:10:5-12:36
+23        android:name="android.hardware.wifi"
+23-->[org.maplibre.gl:android-sdk:11.5.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b9a126a6093d8b3559ef95cc7d51f9db\workspace\transformed\jetified-android-sdk-11.5.0\AndroidManifest.xml:11:9-45
+24        android:required="false" />
+24-->[org.maplibre.gl:android-sdk:11.5.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b9a126a6093d8b3559ef95cc7d51f9db\workspace\transformed\jetified-android-sdk-11.5.0\AndroidManifest.xml:12:9-33
+25
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->[org.maplibre.gl:android-sdk:11.5.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b9a126a6093d8b3559ef95cc7d51f9db\workspace\transformed\jetified-android-sdk-11.5.0\AndroidManifest.xml:15:5-79
+26-->[org.maplibre.gl:android-sdk:11.5.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b9a126a6093d8b3559ef95cc7d51f9db\workspace\transformed\jetified-android-sdk-11.5.0\AndroidManifest.xml:15:22-76
+27    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+27-->[org.maplibre.gl:android-sdk:11.5.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b9a126a6093d8b3559ef95cc7d51f9db\workspace\transformed\jetified-android-sdk-11.5.0\AndroidManifest.xml:16:5-76
+27-->[org.maplibre.gl:android-sdk:11.5.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b9a126a6093d8b3559ef95cc7d51f9db\workspace\transformed\jetified-android-sdk-11.5.0\AndroidManifest.xml:16:22-73
+28
+29    <permission
+29-->[androidx.core:core:1.13.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b7303f4957bcc47ef1e880baa252744c\workspace\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+30        android:name="com.geomeasure.landtracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.13.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b7303f4957bcc47ef1e880baa252744c\workspace\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.13.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b7303f4957bcc47ef1e880baa252744c\workspace\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.geomeasure.landtracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.13.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b7303f4957bcc47ef1e880baa252744c\workspace\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.13.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b7303f4957bcc47ef1e880baa252744c\workspace\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+34
+35    <application
+35-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:11:5-34:19
+36        android:name="com.geomeasure.landtracker.GeoMeasureApplication"
+36-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:12:9-46
+37        android:allowBackup="true"
+37-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:13:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.13.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b7303f4957bcc47ef1e880baa252744c\workspace\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:icon="@mipmap/terra_icon"
+41-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:14:9-42
+42        android:label="@string/app_name"
+42-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:15:9-41
+43        android:roundIcon="@mipmap/terra_icon"
+43-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:16:9-47
+44        android:supportsRtl="true"
+44-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:17:9-35
+45        android:theme="@style/Theme.GeoMeasure" >
+45-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:18:9-48
+46        <service
+46-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:20:9-23:40
+47            android:name="com.geomeasure.landtracker.data.location.BoundaryTrackingService"
+47-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:21:13-66
+48            android:exported="false"
+48-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:23:13-37
+49            android:foregroundServiceType="location" />
+49-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:22:13-53
+50
+51        <activity
+51-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:25:9-33:20
+52            android:name="com.geomeasure.landtracker.presentation.MainActivity"
+52-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:26:13-54
+53            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+53-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:28:13-87
+54            android:exported="true" >
+54-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:27:13-36
+55            <intent-filter>
+55-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:29:13-32:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:30:17-69
+56-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:30:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:31:17-77
+58-->C:\Users\Admin\Desktop\TerraM\app\src\main\AndroidManifest.xml:31:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\8a5e7c9a5742e5c1e838eab0c550f316\workspace\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+62            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+62-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\8a5e7c9a5742e5c1e838eab0c550f316\workspace\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+63            android:exported="false"
+63-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\8a5e7c9a5742e5c1e838eab0c550f316\workspace\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+64            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+64-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\8a5e7c9a5742e5c1e838eab0c550f316\workspace\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+65
+66        <meta-data
+66-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\7dadd7e88ec516e6eaf92fc6ed2bb725\workspace\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+67            android:name="com.google.android.gms.version"
+67-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\7dadd7e88ec516e6eaf92fc6ed2bb725\workspace\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+68            android:value="@integer/google_play_services_version" />
+68-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\7dadd7e88ec516e6eaf92fc6ed2bb725\workspace\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+69
+70        <provider
+70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\e3259e80c79ff30b00a7069f36ec3085\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+71            android:name="androidx.startup.InitializationProvider"
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\e3259e80c79ff30b00a7069f36ec3085\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+72            android:authorities="com.geomeasure.landtracker.androidx-startup"
+72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\e3259e80c79ff30b00a7069f36ec3085\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+73            android:exported="false" >
+73-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\e3259e80c79ff30b00a7069f36ec3085\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+74            <meta-data
+74-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\e3259e80c79ff30b00a7069f36ec3085\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\e3259e80c79ff30b00a7069f36ec3085\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+76                android:value="androidx.startup" />
+76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\9.3.0\transforms\e3259e80c79ff30b00a7069f36ec3085\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+77            <meta-data
+77-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\Admin\.gradle\caches\9.3.0\transforms\a262bf1dbd123cb8d591653102ae12f9\workspace\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+78-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\Admin\.gradle\caches\9.3.0\transforms\a262bf1dbd123cb8d591653102ae12f9\workspace\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
+79                android:value="androidx.startup" />
+79-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\Admin\.gradle\caches\9.3.0\transforms\a262bf1dbd123cb8d591653102ae12f9\workspace\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+82                android:value="androidx.startup" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+83        </provider>
+84
+85        <service
+85-->[androidx.room:room-runtime:2.6.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\1d2baf7bdddf50fbbc14e12468a0dff8\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+86            android:name="androidx.room.MultiInstanceInvalidationService"
+86-->[androidx.room:room-runtime:2.6.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\1d2baf7bdddf50fbbc14e12468a0dff8\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+87            android:directBootAware="true"
+87-->[androidx.room:room-runtime:2.6.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\1d2baf7bdddf50fbbc14e12468a0dff8\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+88            android:exported="false" />
+88-->[androidx.room:room-runtime:2.6.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\1d2baf7bdddf50fbbc14e12468a0dff8\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+89
+90        <receiver
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+91            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+92            android:directBootAware="false"
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+93            android:enabled="true"
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+94            android:exported="true"
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+95            android:permission="android.permission.DUMP" >
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+97                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+98            </intent-filter>
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+100                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+103                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+106                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.3.0\transforms\b11dd39fb6d9cbb5a55d4c8f1909a0a8\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+107            </intent-filter>
+108        </receiver>
+109    </application>
+110
+111</manifest>

@@ -1,0 +1,9 @@
+R_DEF: Internal format may change without notice
+local
+color terra_background
+color terra_icon_background
+drawable splash_screen
+drawable terra_icon_art
+mipmap terra_icon
+string app_name
+style Theme.GeoMeasure

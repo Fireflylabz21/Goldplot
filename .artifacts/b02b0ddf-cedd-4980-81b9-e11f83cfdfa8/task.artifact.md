@@ -1,0 +1,5 @@
+- `[ ]` Fix GPS path tracking during walking surveys (`TrackingViewModel.kt`)
+- `[ ]` Add PDF Dossier Report Generator dependency and exporter (`PdfDossierExporter.kt`)
+- `[ ]` Add AR Field Boundary Visualizer screen / activity
+- `[ ]` Update UI dashboard with Share PDF and AR View options
+- `[ ]` Verify build and test suite

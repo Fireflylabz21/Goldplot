@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.geomeasure.landtracker.app-debug-53:/mipmap-xxhdpi_terra_icon.png.flat",
+        "source": "com.geomeasure.landtracker.app-main-55:/mipmap-xxhdpi/terra_icon.png"
+    },
+    {
+        "merged": "com.geomeasure.landtracker.app-debug-53:/mipmap-xhdpi_terra_icon.png.flat",
+        "source": "com.geomeasure.landtracker.app-main-55:/mipmap-xhdpi/terra_icon.png"
+    },
+    {
+        "merged": "com.geomeasure.landtracker.app-debug-53:/drawable-nodpi_terra_icon_art.png.flat",
+        "source": "com.geomeasure.landtracker.app-main-55:/drawable-nodpi/terra_icon_art.png"
+    },
+    {
+        "merged": "com.geomeasure.landtracker.app-debug-53:/mipmap-hdpi_terra_icon.png.flat",
+        "source": "com.geomeasure.landtracker.app-main-55:/mipmap-hdpi/terra_icon.png"
+    },
+    {
+        "merged": "com.geomeasure.landtracker.app-debug-53:/mipmap-xxxhdpi_terra_icon.png.flat",
+        "source": "com.geomeasure.landtracker.app-main-55:/mipmap-xxxhdpi/terra_icon.png"
+    },
+    {
+        "merged": "com.geomeasure.landtracker.app-debug-53:/mipmap-anydpi-v26_terra_icon.xml.flat",
+        "source": "com.geomeasure.landtracker.app-main-55:/mipmap-anydpi-v26/terra_icon.xml"
+    },
+    {
+        "merged": "com.geomeasure.landtracker.app-debug-53:/drawable-nodpi_splash_screen.png.flat",
+        "source": "com.geomeasure.landtracker.app-main-55:/drawable-nodpi/splash_screen.png"
+    },
+    {
+        "merged": "com.geomeasure.landtracker.app-debug-53:/mipmap-mdpi_terra_icon.png.flat",
+        "source": "com.geomeasure.landtracker.app-main-55:/mipmap-mdpi/terra_icon.png"
+    }
+]

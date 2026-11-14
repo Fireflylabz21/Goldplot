@@ -1,0 +1,4 @@
+com.geomeasure.landtracker.test.app-androidTest-0 C:\Users\Admin\Desktop\TerraM\app\build\generated\res\resValues\androidTest\debug
+com.geomeasure.landtracker.test.app-mergeDebugAndroidTestResources-1 C:\Users\Admin\Desktop\TerraM\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.geomeasure.landtracker.test.app-mergeDebugAndroidTestResources-2 C:\Users\Admin\Desktop\TerraM\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.geomeasure.landtracker.test.app-debugAndroidTest-3 C:\Users\Admin\Desktop\TerraM\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
